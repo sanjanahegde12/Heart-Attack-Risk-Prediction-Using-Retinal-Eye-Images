@@ -1,12 +1,12 @@
 # Heart-Attack-Prediction-using-Retinal-Eye-Image
 
-# Overview
+## Overview
 This project aims to predict the risk of heart attacks using retinal fundus images by applying deep learning techniques. Retinal images offer valuable insights into cardiovascular health, enabling non-invasive, early-stage risk prediction.
 
-# Problem Statement
+## Problem Statement
 Early detection of heart attack risk is crucial but traditional diagnostic approaches can be expensive or invasive. This project explores how retinal images — commonly used for eye examinations — can be leveraged to assess potential cardiovascular risks using machine learning.
 
-# Features
+## Features
 
 Predicts heart attack risk level based on retinal images.
 Risk categories:
@@ -23,7 +23,7 @@ Trained using labeled medical image datasets.
 
 Uses image preprocessing techniques to enhance model accuracy.
 
-# Technologies Used
+## Technologies Used
 
 Python
 
@@ -37,7 +37,7 @@ Matplotlib
 
 Scikit-learn
 
-# System Architecture
+## System Architecture
 
 Image Input: Retinal images (fundus photographs).
 
@@ -47,7 +47,7 @@ Model Training: CNN-based architecture.
 
 Prediction: Outputs the heart attack risk category.
 
-# Dataset
+## Dataset
 
 Medical retinal images dataset with annotated risk categories.(from Kaggle)
 
@@ -59,27 +59,28 @@ Validation Set
 
 Test Set
 
-# How to Run
+## How to Run
 
 Clone the repo:
 
-git clone https://github.com/yourusername/heart-attack-risk-prediction.git
-
+```bash
+git clone https://github.com/sanjanahegde12/Heart-Attack-Risk-Prediction-Using-Retinal-Eye-Images.git
+```
 Install dependencies:
-
+```bash
 pip install -r requirements.txt
-
+```
 Run the prediction:
-
+```bash
 python predict.py --image path_to_retinal_image.jpg
-
-# Results
+```
+## Results
 
 Achieved good accuracy on test images.
 
 Model demonstrated the ability to classify risk levels effectively from unseen retinal images.
 
-# Future Improvements
+## Future Improvements
 
 Integration with real-time diagnostic systems.
 
