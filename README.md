@@ -62,29 +62,24 @@ Test Set
 # How to Run
 
 Clone the repo:
-bash
-Copy
-Edit
+
 git clone https://github.com/yourusername/heart-attack-risk-prediction.git
+
 Install dependencies:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 Run the prediction:
 
-bash
-Copy
-Edit
 python predict.py --image path_to_retinal_image.jpg
-📊 Results
+
+# Results
 
 Achieved good accuracy on test images.
 
 Model demonstrated the ability to classify risk levels effectively from unseen retinal images.
 
-🧾 Future Improvements
+# Future Improvements
 
 Integration with real-time diagnostic systems.
 
